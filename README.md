@@ -15,7 +15,7 @@ With this in mind, <b>our project is aimed at predicting outbreaks of the West N
 Our top performing model was a Logistic Regression model (Lasso Regularization with an $\alpha$ of 1.0), which achieved an AUC scores of <b>0.787</b> on Kaggle. This placed us among the top 15% of all teams that participated within the competition. To achieve these results, we used a range of feature engineering, selection and oversampling techniques including Synthetic Minority Over-Sampling (SMOTE).
 Some of our best predictors were temperature-related features, such as `Tmax` and `WinterDepart`. Time-based features like `Week` and `Month` were also crucial in helping our model to identify the presence of the West Nile Virus. We also saw other weather related variables like `humidlag4` play a role in our model. Location features like `Longitude` and trap location also played a minor role here.
 
-<img src='./assets/final_model_2.png' width="800" content-align="center" style="max-width:50%;">
+<img src='./assets/final_model_2.png' width="800" content-align="center" style="max-width:80%;">
 
 <table class="dcf-table dcf-table-responsive dcf-table-bordered dcf-table-striped dcf-w-100%">
 	<caption>Model Results (Sorted by Test AUC)</caption>
