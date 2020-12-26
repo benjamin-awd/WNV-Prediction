@@ -103,16 +103,19 @@ incorrectly predicting the lack of WNV can increase chances of an outbreak, lead
 
 ## Recommendations
 
-Our model has shown that certain areas are particularly 'dense' in terms of WNV-positive pools and pool proximity. In conjunction to this, our model also highlighted several spots with a more than 80% probability of a WNV outbreak. We believe that these areas should be an immediate 
-focus for mosquito control efforts. These areas have been highlighted in red:
+Our model has shown that certain areas are particularly 'dense' in terms of WNV-positive pools and pool proximity. In conjunction to this, our model also predicted several traps that have a 80% probability or greater of a WNV outbreak. 
+We believe that the neighborhoods in which these traps are located should be an immediate focus for mosquito control efforts. These areas have been highlighted with a red circle below.
 
-- ORD Terminal 5, O'Hare International Airport, Chicago
-- Ohare Court, Bensenville
-- 6500 North Oak Park Avenue, Chicago
-- 4600 Milwaukee Avenue, Chicago
-- 3600 North Pittsburgh Avenue, Chicago
-- 5200 South Nordica Avenue, Chicago
-- 9100 West Higgins Road, Rosemont
+We've extrapolated that these are the neighborhoods that have a high risk of WNV:
+- Elk Grove Village (7,500 acres)
+- Des Plains (9,000 acres)
+- Norridge (1,100 acres)
+- Lincolnwood (1,700 acres)
+- Stickney (1,200 acres)
+- Forest View (900 acres)
+- Morton Grove (3,100 acres)
+
+Around 24,500 acres of area in Chicago identified as high risk, housing an approximate population of 148,500 people.
 
 <img src='./assets/kdeplot_80_locations_v3.jpg' content-align="center">
 
@@ -129,7 +132,7 @@ old tires and flower pots. These images can be aggregated into accurate maps to 
 These drones can also be fitted with a global positioning system (GPS) that can track flight patterns in conjunction with insecticide application. 
 An operator can remotely pilot the drone or, in some cases, autopilot programs may be available for pre-programmed flights. Drones can be 
 useful to target specific areas with larvicides or adulticides, as an alternative to truck-mounted applications that may require a 
-high degree of drift of droplets in order to reach a target area in remote locations.
+high degree of drift of droplets in order to reach a target area in remote locations. These drones can spray potentially up to 80 acres in a day's work.
 
 In summary, drones could be more environmentally friendly than doing the same spraying procedure on foot, and are likely to be a lot more accurate due to the ability 
 to spray from a fully-vertical angle.
